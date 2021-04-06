@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-image: url("../v.jpg"); */
+    /* background-repeat: repeat; */
+    
+}
+
+.container {
+    position: relative;
+    top: 0px;
+    height: 415px; 
+    width: 45%;
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 6rem;
+}
+
+.icon-1 {
+    color: blue;
+}
+
+.icon-1:first-child {
+text-transform: uppercase
+
+}
+
+.icon-2 {
+    color: red;
+}
+
+.icon-3 {
+    color: yellow;
+}
+
+.icon-4 {
+    color: green;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    box-shadow: none;
+    padding: 0 12px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+}
+
+.search-container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.search {
+    color: #9aa0a6;
+}
+
+.mic {
+    cursor: pointer;
+}
+
+.search-input {
+    border: 0px;
+    border-radius: 0;
+    padding: 11px 13px;
+    flex: 1;
+    margin: 0 2px;
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-transform: capitalize;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.language-links {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-link {
+    padding: 0 4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.language-link:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+    color: #70757a;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    height:100px;
+}
+
+.footer > p {
+    padding: 13px 18px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-bottom: 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline;
+    padding-inline-start: 0;
+    margin-right: 15px;
+}
+
+.catalog:hover {
+    text-decoration: underline
+}
+.navigation a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.carbon {
+    position: relative;
+    right: 80px;
+}
+
+.carbon:hover {
+    text-decoration: underline
+}
+
+.legolas {
+    position: relative;
+    top: 22px ;
+}
+
+.header-ul {
+    list-style: none;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header-ot {
+   display: inline-block;
+   padding-left: 20px;
+}
+
+.koko {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.koko:hover {
+    text-decoration: underline;
+}
+
+.images {
+    margin-right: 20px;
+    text-decoration-color: #70757a;
+
+}
+
+.austus {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    margin-right: 0px;
+}
+
+.austus:hover {
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #aeb2b6;
+}
+
+.google {
+    width: 35px;
+    height: 35px;
+}
+
+.google:hover {
+    border-radius: 20px;
+    padding: 3px;
+    background-color: #aeb2b6;
+}
+
+.header {
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-1 {
+    padding-bottom: 3px;
+}
+
+.nav-2 {
+    padding-bottom: 3px;
+    padding-left: 20px;
+}
+
+.nav-3 {
+    padding-right: 5px;
+}
+
+.nav-4 {
+    padding-right: 10px;
+}
